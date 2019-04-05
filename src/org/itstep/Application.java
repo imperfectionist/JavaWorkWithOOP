@@ -22,7 +22,7 @@ public class Application {
 		Square square1 = new Square(8);
 		Square square2 = new Square(15);
 		
-		List<Shape> shapes = new ArrayList();
+		List<Shape> shapes = new ArrayList<Shape>();
 		shapes.add(triangle1);
 		shapes.add(triangle2);
 		shapes.add(circle1);
